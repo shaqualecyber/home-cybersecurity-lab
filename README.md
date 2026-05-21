@@ -65,22 +65,22 @@ Successfully created a basic home cybersecurity lab environment with separate Wi
 ## Screenshots
 
 ### Fedora VM Memory Settings
-Fedora VM Memory Settings
+![Fedora VM Memory Settings](images/fedora-vm-memory-settings.png)
 
 ### Fedora VM Disk Settings
-Fedora VM Disk Settings
+![Fedora VM Disk Settings](images/fedora-vm-disk-settings.png)
 
 ### Fedora VM Network Settings
-Fedora VM Network Settings
+![Fedora VM Network Settings](images/fedora-vm-network-settings.png)
 
 ### Fedora System Information
-Fedora System Information
+![Fedora System Information](images/fedora-system-info.png)
 
 ### Fedora Hostnamectl Output
-Fedora Hostnamectl
+![Fedora Hostnamectl Output](images/fedora-hostnamectl.png)
 
 ### Fedora Terminal Ping Test
-Fedora Ping Test
+![Fedora Terminal Ping Test](images/fedora-terminal-ping-test.png)
 
 ## Key Takeaways
 This lab helped me better understand virtualization, operating system deployment, ISO mounting, VM setup, and how virtual machines can support cybersecurity training and future SOC-focused labs.
