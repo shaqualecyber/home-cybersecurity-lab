@@ -50,7 +50,14 @@ Created a second virtual machine for Fedora Linux, mounted the Fedora ISO, and c
 Confirmed that both virtual machines were installed successfully and ready for future cybersecurity labs.
 
 ## Challenges Encountered
-One challenge was following instructions that were originally written for VMware Workstation on Windows while completing the lab on a Mac using VMware Fusion. I used the Mac-specific guidance provided in the lab document along with supplemental video walkthroughs to complete the setup.
+
+One challenge I encountered during this lab was understanding the difference between the Windows VM setup process and the Fedora VM setup process. When I created the Windows VM, I had to walk through the operating system installation, user account setup, and initial system configuration. With Fedora, the VM booted into the desktop environment much faster than expected, which required me to slow down and verify the user account, system settings, and environment details after the initial launch.
+
+I also had to get more comfortable with Linux user account behavior. At one point, I noticed the home folder name did not match the username I expected to be working under, which led me to review the user account settings and how Fedora handles live sessions and local accounts. This helped me better understand why confirming the active user, hostname, and system details matters before documenting a lab.
+
+Another small challenge was relearning basic terminal workflow. During network connectivity testing, I initially forgot how to stop or limit a continuous ping command. I reviewed the proper syntax and used ping -c 4 google.com to send a set number of packets, which created cleaner output for documentation.
+
+Overall, these challenges helped me practice troubleshooting, verifying system configuration, and becoming more comfortable navigating Fedora as a Linux environment.
 
 ## Results
 Successfully created a basic home cybersecurity lab environment with separate Windows and Fedora virtual machines.
